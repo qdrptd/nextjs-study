@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 const counter1: NextPage = () =>{
     
     const [counts, setCounts] = useState<number[]>([0,]);
+    
     useEffect(() =>{
         setCounts([0]);
     },[])
